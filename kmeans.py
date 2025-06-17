@@ -12,7 +12,7 @@ st.set_page_config(page_title="Customer Segmentation using KMeans", layout="cent
 with open("kmeans_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-st.title("🛍️ Mall Customer Segmentation App")
+st.title("🛍️  Customer Segmentation App")
 st.markdown("Upload your dataset and view K-Means clusters based on **Annual Income** and **Spending Score**.")
 
 # File upload
