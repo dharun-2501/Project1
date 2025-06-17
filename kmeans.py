@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Set page config
-st.set_page_config(page_title="Flexible Clustering App", layout="centered")
+st.set_page_config(page_title="Clustering App", layout="centered")
 
 # Load the trained KMeans model
 with open("kmeans_model.pkl", "rb") as file:
