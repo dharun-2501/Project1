@@ -12,7 +12,7 @@ st.set_page_config(page_title="Clustering App", layout="centered")
 with open("kmeans_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-st.title("🔍 Flexible K-Means Clustering App")
+st.title("🔍  Clustering App")
 st.markdown("Upload any dataset and choose two numeric columns for clustering and visualization.")
 
 # Upload file
